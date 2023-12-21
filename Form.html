@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,34 +7,45 @@
     <title>THE FORM</title>
 </head>
 <body>
+   <style>
+    body{
+        background-color: chartreuse;
+    }
+
+    .container{
+          font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+          font-weight: bold;
+    }
+   </style>
     <h1>
         How to make the form
     </h1>
     <form action="backened.php"></form>
-    <div>
+    <div class="container">
 
         Name:<input type="text" name="Myname">
+        
     </div>
     <br>
-
-    <div>
+    
+    <div class="container">
         Roll No:<input type="text" name="rollno">
-
+        
     </div>
-
+    
     <br>
-
-    <div>
+    
+    <div class="container">
         Role:<input type="text" name="role"
     </div>
-
+    
     <br>
     <br>
     
     Date: <input type ="date">
     <br>
     <br>
-    <div>
+    <div class="container">
         
         Number:<input type="Number">
     </div>
@@ -46,17 +58,17 @@
     </div>
     <br>
     
-    <div>
+    <div class="container">
         
         Gender: Male <input type="radio" name="mygender"> Female <input type="radio" name="mygender"> 
     </div>
     <br>
-    <div>
+    <div class="container">
        Write about yourself:<textarea name = "mytext" cols="30" rows = "10"></textarea>
     </div>
     <br>
 
-    <div>
+    <div class="container">
         <input type="Submit" value="submit now">
     </div>
         <input type="reset" name ="resetnow" >
