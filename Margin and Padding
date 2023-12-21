@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>margin and padding</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            color: orangered;
+            background-color: black;
+            border: 3px solid rgb(0, 255, 136);
+            padding:12px;
+            margin:34px;
+       padding-right:34px;
+          /*  padding:top,right,bottom,left */
+          border-radius:45px;
+          margin-left:56px;
+          margin-right:145px;
+          margin-bottom: 56px;
+          margin-top:78px;
+          /*height:34px
+          width:23px*/
+        }
+
+        body{
+            background-color: rgb(21, 63, 204);
+        }
+    </style>
+
+    <div class="container">
+
+        <p> Shri Ram </p>
+    </div>
+    <div class="container">
+        <p> Shri Ram </p>
+    </div>
+    <div class="container">
+        <p> Shri Ram </p>
+    </div>
+
+</body>
+
+</html>
